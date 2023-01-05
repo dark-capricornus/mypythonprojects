@@ -6,13 +6,15 @@ about: str = '''
     HARISH.B
     Team Capricorn
 '''
+# age calculator
 name = str(input("Your name : "))
 b_year = int(input("Enter the birth year : "))
 cy_year = int(input("Enter the year from which to be calculated : "))
 age = cy_year - b_year
 age = str(age)
+# kg to lbs converter
 weight_kgs = int(input("Enter your weight(kgs) : "))
 weight_lbs = str(round(weight_kgs * 2.205))
-print("Hi " + name + " Your age is :" + age + "\n" + "weight (lbs) : " + weight_lbs + " lb ")
-cname = name[:]
-print(cname)
+# output here
+print(f'Hi {name} your age: {age} \n weight(lbs): {weight_lbs} lbs')
+# print(about)
