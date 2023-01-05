@@ -14,4 +14,5 @@ age = str(age)
 weight_kgs = int(input("Enter your weight(kgs) : "))
 weight_lbs = str(round(weight_kgs * 2.205))
 print("Hi " + name + " Your age is :" + age + "\n" + "weight (lbs) : " + weight_lbs + " lb ")
-print(about)
+cname = name[:]
+print(cname)
